@@ -15,6 +15,6 @@ int main(){                                             	// Hauptfunktion
 	
 	int ergex = addierey(4, 4);
 	
-	printf( "test:  %d subtr: %d ergex: %d\n", summe, ergeb, egex );
+	printf( "test:  %d subtr: %d ergex: %d\n", summe, ergeb, ergex );
 	return 0;                                           	// Optionale Rückgabe an das Betriebssystem
 }
