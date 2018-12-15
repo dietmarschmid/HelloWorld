@@ -13,7 +13,7 @@ foo.o: src/foo.cc
 clean:
 	ifneq ($(OBJECTS),)
     		rm -f $(OBJECTS)
-	endif
+	endif;
 	ifneq (prog,)
     		rm -f prog
 	endif
