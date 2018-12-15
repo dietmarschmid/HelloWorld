@@ -1,4 +1,5 @@
 #include <iostream>                                   // Ein- und Ausgabebibliothek
+#include "src/funktionen.h"
 
 int addierex(int summand1, int summand2) {
 	return (summand1 + summand2);
