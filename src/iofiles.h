@@ -11,3 +11,7 @@ if(fp == NULL) {
 	// Datei schliessen
 	fclose(fp);
 }
+
+int addierex(int summand1, int summand2) {
+	return (summand1 + summand2);
+}
