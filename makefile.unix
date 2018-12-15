@@ -1,9 +1,15 @@
 LIBS     = -O2 -liostream -lfstream -lstdlib -lstring
-prog: main.o foo.o
-	gcc -o prog main.o foo.o
+CC=g++
+OBJECTS=main.o foo.o
+prog: $(OBJECTS)
+	$(CC) -o prog main.o foo.o
 
-main.o: main.cc
-	gcc -c src/main.cc
+main.o: src/main.cc
+	$(CC) -c src/main.cc
 	
-foo.o: foo.cc
-	gcc -c src/foo.cc
+foo.o: src/foo.cc
+	$(CC) -c src/foo.cc
+
+clean:
+	rm prog
+	rm $(OBJECTS)
