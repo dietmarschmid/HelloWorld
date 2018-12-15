@@ -1,5 +1,5 @@
 AUTOMAKE_OPTIONS = foreign
 bin_PROGRAMS = helloworld
 SUBDIRS = src
-subdir-objects = true
+subdir-objects = enable
 helloworld_SOURCES = src/main.c
