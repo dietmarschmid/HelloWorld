@@ -1,7 +1,7 @@
 #include <iostream>                                     // Ein- und Ausgabebibliothek
  
 int main2(){                                             // Hauptfunktion
-    std::cout << "Hallo, du schöne Welt!" << std::endl; // Ausgabe
+    std::cout << "Hallo, du schöne Welt!" << std::endl; // Ausgabe2
   
     return 0;                                           // Optionale Rückgabe an das Betriebssystem
 }
