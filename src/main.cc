@@ -1,6 +1,8 @@
 #include <iostream>                                   // Ein- und Ausgabebibliothek
 #include "funktionen.h"
 
+int addierey (summand1, summand2);
+
 int addierex(int summand1, int summand2) {
 	return (summand1 + summand2);
 }
