@@ -11,9 +11,5 @@ foo.o: src/foo.cc
 	$(CC) -c src/foo.cc
 
 clean:
-	/*ifneq ($(OBJECTS),)*/
-    		rm -f $(OBJECTS)
-	/*endif;
-	ifneq (prog,)*/
-    		rm -f prog
-	/*endif*/
+	rm -f $(OBJECTS)
+	rm -f prog
