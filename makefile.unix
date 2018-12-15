@@ -2,7 +2,7 @@ LIBS     = -O2 -liostream -lfstream -lstdlib -lstring
 CC=g++
 OBJECTS=main.o addiere.o
 prog: $(OBJECTS)
-	$(CC) -o prog $/OBJECTS)
+	$(CC) -o prog $(OBJECTS)
 
 main.o: src/main.cc
 	$(CC) -c src/main.cc
