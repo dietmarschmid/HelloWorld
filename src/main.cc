@@ -2,6 +2,6 @@
  
 int main(){                                             // Hauptfunktion
     std::cout << "Hallo, du schöne Welt!" << std::endl; // Ausgabe1
-    int xx = foo();
+    int summe = addiere(3, 7);
     return 0;                                           // Optionale Rückgabe an das Betriebssystem
 }
