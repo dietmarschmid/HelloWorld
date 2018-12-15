@@ -1,4 +1,4 @@
 AUTOMAKE_OPTIONS = foreign
 bin_PROGRAMS = helloworld
 SUBDIRS = src
-helloworld_SOURCES = main.c
+helloworld_SOURCES = src/main.c
