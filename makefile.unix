@@ -5,7 +5,7 @@ prog: $(OBJECTS)
 	$(CC) -o prog $(OBJECTS) 
 
 main.o: src/main.cc
-	$(CC) -c src/main.cc -I ./src
+	$(CC) -c src/main.cc -I /home/didi/HelloWorld/src
 	
 addiere.o: src/addiere.cc
 	$(CC) -c src/addiere.cc
