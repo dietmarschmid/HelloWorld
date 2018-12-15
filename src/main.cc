@@ -11,6 +11,6 @@ int main(){                                             	// Hauptfunktion
 	int summe = addiere(3, 7);
 	int ergeb = subtrahiere(7, 3);
 	
-	printf( "test:  %d\n", summe );
+	printf( "test:  %d "subtr" %d\n", summe, ergeb );
 	return 0;                                           	// Optionale Rückgabe an das Betriebssystem
 }
