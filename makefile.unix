@@ -1,6 +1,6 @@
+LIBS     = -O2 -liostream -lfstream -lstdlib -lstring
 prog: main.o 
 	g++ -o prog src/main.o
 
 main.o: main.cc
 	g++ -c src/main.cc
-
