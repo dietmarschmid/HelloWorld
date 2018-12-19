@@ -29,9 +29,9 @@ int main(int argc, char *argv[])        /* Argumente an main-Funktion */
 {                                             	// Hauptfunktion
 	std::cout << "Hallo, du schöne Welt!" << std::endl; 	// Ausgabe1
     
-    int field1 = argv[1];
-    char operand = argv[2];
-    int number2 = argv[3];
+    field1 = argv[1];
+    operand = argv[2];
+    number2 = argv[3];
     
 	int summe = addiere(number1, numnber2);
 	
