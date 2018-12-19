@@ -17,6 +17,13 @@ int main(int argc, char *argv[])        /* Argumente an main-Funktion */
 	
 	int ergex = addierey(4, 4);
 	
+    
+    if(argc < 4) {
+        printf("Benötige mindestens 4 Argumente!\n");
+        printf("Aufruf: %s <zahl><op><zahl> ...\n", *argv);
+        return EXIT_FAILURE;
+    }
+    
     printf("Kommando: %s:\n", argv[0]);  // Ausgabe der eingegebenen Parameter
     
 	printf( "test:  %d subtr: %d ergex: %d\n", summe, ergeb, ergex );
