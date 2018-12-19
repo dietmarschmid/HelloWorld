@@ -1,5 +1,5 @@
 #include <iostream>         // Ein- und Ausgabebibliothek
-#include <stdio.h>          // Standardbibliothek
+//   #include <stdio.h>          // Standardbibliothek
 #include "funktionen.h"
 
 int addierey (int summand1, int summand2);
@@ -8,11 +8,7 @@ int addierex(int summand1, int summand2) {
 	return (summand1 + summand2);
 }     //xx
 
-int getopt(int argc, char **argv, char *optstring);
-
-int mainmain(argc, argv) /* Argumente an main-Funktion */
-int argc;
-char *argv[];
+int main(int argc, char *argv[])        /* Argumente an main-Funktion */
 {                                             	// Hauptfunktion
 	std::cout << "Hallo, du schöne Welt!" << std::endl; 	// Ausgabe1
    	
