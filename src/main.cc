@@ -1,5 +1,5 @@
 #include <iostream>         // Ein- und Ausgabebibliothek
-//   #include <stdio.h>          // Standardbibliothek
+#include <stdio.h>          // Standardbibliothek
 #include "funktionen.h"
 
 
@@ -29,9 +29,11 @@ int main(int argc, char *argv[])        /* Argumente an main-Funktion */
 {                                             	// Hauptfunktion
 	std::cout << "Hallo, du schöne Welt!" << std::endl; 	// Ausgabe1
     
-    field1 = argv[1];
+    int field1 = getopt(argv[1]);
     operand = argv[2];
     number2 = argv[3];
+    
+
     
 	int summe = addiere(number1, numnber2);
 	
