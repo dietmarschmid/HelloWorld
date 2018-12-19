@@ -2,6 +2,23 @@
 //   #include <stdio.h>          // Standardbibliothek
 #include "funktionen.h"
 
+
+void show_help(void) {    // Irgendeine Hilfe Meldung ausgeben
+    printf("\nProgrammaufruf: myecho [OPTION] STRING\n"\
+           "Programm gibt den Text in gewünschter Form auf"\
+           "dem Bildschirm aus\n\nFolgende Optionen stehen"\
+           "Ihnen zur Verfügung:\n\n"\
+           "\t-r  Text wird spiegelverkehrt ausgegeben\n"\
+           "\t-g  Text wird in Grossbuchstaben ausgegeben\n"\
+           "\t-s  Text wird in Kleinbuchstaben ausgegeben\n "\
+           "\t-h  Dieser Text\n"
+           "\t-v  Versionsnummer\n\n");
+}
+
+
+
+
+
 int addierey (int summand1, int summand2);
 
 int addierex(int summand1, int summand2) {
@@ -18,9 +35,9 @@ int main(int argc, char *argv[])        /* Argumente an main-Funktion */
 	int ergex = addierey(4, 4);
 	
     
-    if(argc < 4) {
-        printf("Benötige mindestens 4 Argumente!\n");
-        printf("Aufruf: %s <zahl><op><zahl> ...\n", *argv);
+    if(argc < 4) {    // Pruefe ob es Programmname plus mindestens 3 Paramter sind
+        show_help();
+        return EXIT_FAILURE;
         return EXIT_FAILURE;
     }
     
