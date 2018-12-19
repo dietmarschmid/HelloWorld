@@ -1,4 +1,5 @@
-#include <iostream>                                   // Ein- und Ausgabebibliothek
+#include <iostream>         // Ein- und Ausgabebibliothek
+#include <stdio.h>          // Standardbibliothek
 #include "funktionen.h"
 
 int addierey (int summand1, int summand2);
