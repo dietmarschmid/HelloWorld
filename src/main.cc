@@ -8,6 +8,8 @@ int addierex(int summand1, int summand2) {
 	return (summand1 + summand2);
 }     //xx
 
+int getopt(int argc, char **argv, char *optstring);
+
 int mainmain(argc, argv) /* Argumente an main-Funktion */
 int argc;
 char *argv[];
