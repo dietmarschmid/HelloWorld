@@ -16,7 +16,11 @@ void show_help(void) {    // Irgendeine Hilfe Meldung ausgeben
 }
 
 
-
+int getopt(char *argument, char *option) {
+    if( argument[0]=='-' && argument[1]==option[0] )
+        return TRUE;
+    return FALSE;
+}
 
 
 int addierey (int summand1, int summand2);
