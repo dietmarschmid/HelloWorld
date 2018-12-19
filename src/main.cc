@@ -28,22 +28,22 @@ int addierex(int summand1, int summand2) {
 int main(int argc, char *argv[])        /* Argumente an main-Funktion */
 {                                             	// Hauptfunktion
 	std::cout << "Hallo, du schöne Welt!" << std::endl; 	// Ausgabe1
-   	
-	int summe = addiere(3, 7);
-	int ergeb = subtrahiere(7, 3);
-	
-	int ergex = addierey(4, 4);
+    
+    int field1 = argv[1];
+    char operand = argv[2];
+    int number2 = argv[3];
+    
+	int summe = addiere(number1, numnber2);
 	
     
     if(argc < 4) {    // Pruefe ob es Programmname plus mindestens 3 Paramter sind
         show_help();
         return EXIT_FAILURE;
-        return EXIT_FAILURE;
     }
     
     printf("Kommando: %s:\n", argv[0]);  // Ausgabe der eingegebenen Parameter
     
-	printf( "test:  %d subtr: %d ergex: %d\n", summe, ergeb, ergex );
+    printf( "Ergebnis:  %d %c %d ergibt: %d\n", number1, operand, number2, summe);
 	return 0;                                           	// Optionale Rückgabe an das Betriebssystem
 }
 
